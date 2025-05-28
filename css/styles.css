@@ -91,9 +91,19 @@ body {
   
   
 
-  .hero {
-    text-align: center;
-  }
+.hero {
+  background-image: url('../img/Srihari.JPG'); /* fixed path */
+  background-size: cover;
+  background-position: center;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
   
 
   .profile-pic {
