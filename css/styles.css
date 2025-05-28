@@ -161,6 +161,20 @@ body {
     text-decoration: none;
     color: #0073b1;
   }
+
+.hero-section {
+  width: 100vw;
+  height: 100vh;
+  background-image: url('img/srihari.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
   
   /* Responsive Design */
   @media (max-width: 768px) {
