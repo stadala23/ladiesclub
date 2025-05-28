@@ -1,0 +1,129 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="css/styles.css" />
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+    <style>
+        body {
+          font-family: Arial, sans-serif;
+          background-color: #f9f9f9;
+          color: #222;
+          margin: 0;
+          padding: 0;
+        }
+        
+        .container {
+          max-width: 900px;
+          margin: auto;
+          padding: 40px 20px;
+          background: #fff;
+          box-shadow: 0 0 10px rgba(0,0,0,0.1);
+          border-radius: 10px;
+        }
+        h1 {
+          text-align: center;
+          color: #d4dbe2;
+        }
+        p {
+          line-height: 1.7;
+          margin-bottom: 16px;
+          font-size: 1.1rem;
+        }
+        nav.navbar {
+          background-color: #333;
+          padding: 15px;
+          text-align: center;
+        }
+        nav.navbar a {
+          color: #fff;
+          margin: 0 15px;
+          text-decoration: none;
+          font-weight: bold;
+        }
+        nav.navbar a:hover {
+          text-decoration: underline;
+        }
+      </style>
+    </head>
+    <body>
+        
+    
+        
+    <!-- 🔁 Use this same block in all 3 files -->
+    <nav class="navbar">
+        <ul class="nav-links">
+          <li><a href="index.html" class="nav-item">Home</a></li>
+          <li><a href="about.html" class="nav-item">About</a></li>
+          <li><a href="gallery.html" class="nav-item">Gallery</a></li>
+        </ul>
+      </nav>
+      
+          
+
+  <main class="hero">
+    <section class="hero-section">
+      <div class="hero-content">
+        <h1>Aloha, I am Srihari</h1>
+        <p>Full Stack Engineer | Web developer</p>
+      </div>
+    </section>
+
+    <section class="contact-form">
+      <h2>Contact Me</h2>
+      <form>
+        <input type="text" placeholder="Your Name" required />
+        <input type="email" placeholder="Your Email" required />
+        <textarea placeholder="Message" rows="4"></textarea>
+        <button type="submit">Send</button>
+      </form>
+    </section>
+
+    <section class="application-form">
+      <h2>Application Form</h2>
+      <form>
+        <input type="text" placeholder="Full Name" />
+        <input type="text" placeholder="Address" />
+        <input type="text" placeholder="Driver's License #" />
+        <input type="tel" placeholder="Phone Number" />
+        <input type="date" placeholder="DOB" />
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+
+    <!-- Working Clock Widget -->
+    <section style="text-align:center; margin-top: 40px;">
+      <h2>Live Clock</h2>
+      <div id="clock" style="font-size: 24px; font-weight: bold;"></div>
+      <script>
+        function updateClock() {
+          const now = new Date();
+          document.getElementById('clock').textContent = now.toLocaleTimeString();
+        }
+        setInterval(updateClock, 1000);
+        updateClock();
+      </script>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Srihari</p>
+  </footer>
+</body>
+</html>
+
+
+<footer style="text-align:center; margin-top: 40px; font-family: sans-serif;">
+    <h4> Fonts for this website designing are:</h4>
+    <ul style="list-style: none; padding: 0;">
+      <li><strong>Playfair Display</strong> – Elegant and serif, perfect for headings</li>
+      <li><strong>Lora</strong> – Balanced serif with a modern feel for body text</li>
+      <li><strong>Montserrat</strong> – Clean and versatile sans-serif for navigation and buttons</li>
+    </ul>
+  </footer>
+  
