@@ -90,15 +90,11 @@ body {
   }
   
   
-.hero {
-  background-image: url('img/Srihari.JPG');
-  background-size: cover;
-  background-position: center;
-  width: 100vw;
-  height: 100vh;
-  margin: 0;
-}
 
+  .hero {
+    text-align: center;
+  }
+  
 
   .profile-pic {
     max-width: 180px;
@@ -194,8 +190,16 @@ body {
     align-items: flex-end;
   }
 
-  .hero {
+  .hero-content {
+    position: absolute;
+    bottom: 80px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(0, 0, 0, 0.5);
+    padding: 1.5rem 2rem;
+    border-radius: 10px;
     text-align: center;
+    color: white;
   }
   
   
