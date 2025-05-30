@@ -1,3 +1,23 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Lora&family=Montserrat&display=swap');
+
+body {
+  font-family: 'Lora', serif;
+  background-color: #f9f9f9;
+  color: #222;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3 {
+  font-family: 'Playfair Display', serif;
+}
+
+nav, .logo, .nav-links a, button {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Rest of the unchanged CSS from original file */
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins&family=Raleway&display=swap');
 
 body {
